@@ -1,0 +1,79 @@
+/*********************** TAG SELECTORS ************************/
+
+body{
+  background-color: #364F6B;
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+}
+
+
+/*********************** CLASS SELECTORS ************************/
+
+.main-text {
+  color: #F5F5F5;
+  font-size: 4rem;
+  font-family: 'Martel', serif;
+  text-shadow: #FC5185 0.2rem 0;
+  padding: 5% 0 2% 0;
+}
+
+.button-text {
+  /* border: 7px solid #11324D; */
+  font-size: 4rem;
+  font-family: 'Noto Serif', serif;
+  line-height: 2;
+  font-weight: 900;
+  color: #FC5185;
+  text-shadow: 3px 0 #364F6B;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 5%;
+  background-color: white;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.w {
+  background-image: url("../images/tom1.png");
+}
+
+.a {
+  background-image: url("../images/tom2.png");
+}
+
+.s {
+  background-image: url("../images/tom3.png");
+}
+
+.d {
+  background-image: url("../images/tom4.png");
+}
+
+.j {
+  background-image: url("../images/crash.png");
+}
+
+.k {
+  background-image: url("../images/snare.png");
+}
+
+.l {
+  background-image: url("../images/kick.png");
+}
+
+
+@media (max-width:500px) {
+  .main-text {
+    padding: 15% 0 5% 0;
+    font-size: 3rem;
+  }
+  .button-text {
+    margin: 20%;
+  }
+}
